@@ -5,9 +5,13 @@
     text-transform: lowercase;
 }
 
-.menu__link.ativo {
+.menu__link--ativo {
     color: #333333;
     font-weight: bold;
+}
+
+.menu__link:last-child {
+    margin-right: none;
 }
 
 .menu__link:hover {
